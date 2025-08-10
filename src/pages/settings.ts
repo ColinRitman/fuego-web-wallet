@@ -38,7 +38,7 @@ class SettingsView extends DestructableView{
 	@VueVar(false) checkMinerTx !: boolean;
 
 	@VueVar(false) customNode !: boolean;
-	@VueVar('https://node.conceal.network:16000/') nodeUrl !: string;
+	@VueVar('https://api.fuego.spaceportx.net/daemon/') nodeUrl !: string;
 
 	@VueVar(0) creationHeight !: number;
 	@VueVar(0) scanHeight !: number;

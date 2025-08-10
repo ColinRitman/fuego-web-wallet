@@ -312,29 +312,15 @@ class SendView extends DestructableView {
 							watchdog.checkMempool();
 
 						let promise = Promise.resolve();
-						if (
-							destinationAddress === 'ccx7NzuofXxcypov8Yqm2A118xT17HereBFjp3RScjzM7wncf8BRcnHZbACy63sWD71L7NmkJRgQKXFE3weCfAh31RAVFHgttf' ||
-							destinationAddress === 'ccx7V4LeUXy2eZ9waDXgsLS7Uc11e2CpNSCWVdxEqSRFAm6P6NQhSb7XMG1D6VAZKmJeaJP37WYQg84zbNrPduTX2whZ5pacfj' ||
-							destinationAddress === 'ccx7YZ4RC97fqMh1bmzrFtDoSSiEgvEYzhaLE53SR9bh4QrDBUhGUH3TCmXqv8MTLjJDtnCeeaT5bLC2ZSzp3ZmQ19DoiPLLXS'
-						) {
-							promise = swal({
-								type: 'success',
-								title: i18n.t('sendPage.thankYouDonationModal.title'),
-								text: i18n.t('sendPage.thankYouDonationModal.content'),
-								confirmButtonText: i18n.t('sendPage.thankYouDonationModal.confirmText'),
-                onClose: () => {
-                  window.location.href = '#!account';
-                }                
-							});
-						} else
-							promise = swal({
-								type: 'success',
-								title: i18n.t('sendPage.transferSentModal.title'),
-								confirmButtonText: i18n.t('sendPage.transferSentModal.confirmText'),
-                onClose: () => {
-                  window.location.href = '#!account';
-                }                
-							});
+						// TODO: Update with official Fuego donation addresses when available
+						promise = swal({
+							type: 'success',
+							title: i18n.t('sendPage.transferSentModal.title'),
+							confirmButtonText: i18n.t('sendPage.transferSentModal.confirmText'),
+              onClose: () => {
+                window.location.href = '#!account';
+              }                
+						});
 
 						promise.then(function () {
 							if (self.redirectUrlAfterSend !== null) {

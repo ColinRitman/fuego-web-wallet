@@ -325,7 +325,7 @@
 		"hashrate":"HashRate",
 		"maxHashrate":"HashRate max",
 		"dedicatedHardware":"Avec un logiciel spécifique pour le minage, vous pourriez obtenir entre 2 et 3 fois plus de hashrate.<br/>Cela vous permettrait également de miner avec votre carte graphique (si vous en avez une).",
-		"miningHandledBy":"Le minage est géré par la pool Conceal.Network"
+		"miningHandledBy":"Le minage est géré par la pool Fuego.Network"
 	  }
 	},
 	"settingsPage":{
