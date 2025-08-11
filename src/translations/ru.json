@@ -328,7 +328,7 @@
         "hashrate": "Хешрейт",
         "maxHashrate": "Макс. Хешрейт",
         "dedicatedHardware": "Майнинг помогает в децентрализации сети и позволяет вам заработать Conceal.",
-        "miningHandledBy": "Майнинг проходит на пуле pool.conceal.network"
+        "miningHandledBy": "Майнинг проходит на пуле pool.fuego.network"
       }
     },
     "settingsPage": {

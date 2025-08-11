@@ -1,7 +1,7 @@
 {
-  "name": "ConcealWebWallet",
-  "version": "1.1.1",
-  "description": "Fully client-side web-wallet for Conceal Network",
+  "name": "FuegoWebWallet",
+  "version": "1.0.0",
+  "description": "Fully client-side web-wallet for Fuego Network",
   "main": "index.js",
   "dependencies": {
     "typescript": "^3.9.0",
@@ -10,12 +10,12 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ConcealNetwork/conceal-web-wallet.git"
+    "url": "git+https://github.com/usexfg/fuego-web-wallet.git"
   },
-  "author": "Gnock,Aiwe,Alex,ExploShot",
-  "license": "BSD-3",
+  "author": "Fuego Community",
+  "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/ConcealNetwork/conceal-web-wallet/issues"
+    "url": "https://github.com/usexfg/fuego-web-wallet/issues"
   },
-  "homepage": "https://github.com/ConcealNetwork/conceal-web-wallet#readme"
+  "homepage": "https://github.com/usexfg/fuego-web-wallet#readme"
 }

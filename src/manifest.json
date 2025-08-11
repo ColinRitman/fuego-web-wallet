@@ -1,6 +1,6 @@
 {
-  "name": "Conceal Web Wallet",
-  "short_name": "Conceal Wallet",
+  "name": "Fuego Web Wallet",
+  "short_name": "Fuego Wallet",
   "icons": [{
 	"src": "assets/img/icons/icon-128x128.png",
 	"sizes": "128x128",
@@ -24,6 +24,6 @@
   }],
   "start_url": "/index.html",
   "display": "standalone",
-  "background_color": "#363636",
-  "theme_color": "#363636"
+  "background_color": "#FF4500",
+  "theme_color": "#FF4500"
 }

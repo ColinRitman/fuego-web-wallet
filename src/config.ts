@@ -3,48 +3,48 @@ let global : any = typeof window !== 'undefined' ? window : self;
 global.config = {
   debug: false,  
 	apiUrl: [
-        "https://ccxapi.conceal.network/api/"
+        "https://api.fuego.spaceportx.net/api/"
     ],
     nodeList: [
-        "https://ccxapi.conceal.network/daemon/"
+        "https://api.fuego.spaceportx.net/daemon/"
     ],
 	nodeUrl: "",
-	mainnetExplorerUrl: "https://explorer.conceal.network/",
-	mainnetExplorerUrlHash: "https://explorer.conceal.network/index.html?hash={ID}#blockchain_transaction",
-	mainnetExplorerUrlBlock: "https://explorer.conceal.network/index.html?hash={ID}#blockchain_block",
+	mainnetExplorerUrl: "https://fuego.spaceportx.net/",
+	mainnetExplorerUrlHash: "https://fuego.spaceportx.net/index.html?hash={ID}#blockchain_transaction",
+	mainnetExplorerUrlBlock: "https://fuego.spaceportx.net/index.html?hash={ID}#blockchain_block",
 	
-	testnetExplorerUrl: "https://explorer.testnet.conceal.network/",
-	testnetExplorerUrlHash: "https://explorer.testnet.conceal.network/index.html?hash={ID}#blockchain_transaction",
-	testnetExplorerUrlBlock: "https://explorer.testnet.conceal.network/index.html?hash={ID}#blockchain_block",
+	testnetExplorerUrl: "https://testnet.fuego.spaceportx.net/",
+	testnetExplorerUrlHash: "https://testnet.fuego.spaceportx.net/index.html?hash={ID}#blockchain_transaction",
+	testnetExplorerUrlBlock: "https://testnet.fuego.spaceportx.net/index.html?hash={ID}#blockchain_block",
 	testnet: false,
     
-	coinUnitPlaces: 6,
-	coinDisplayUnitPlaces: 6,
+	coinUnitPlaces: 7,
+	coinDisplayUnitPlaces: 7,
   	txMinConfirms: 10,
-	txCoinbaseMinConfirms: 10,
+	txCoinbaseMinConfirms: 60,
 	
-	addressPrefix: 0x7AD4,
-	integratedAddressPrefix: 0x7AD5,
-	subAddressPrefix: 0x7AD6,
-	addressPrefixTestnet: 0x7AD4,
-	integratedAddressPrefixTestnet: 0x7AD5,
-	subAddressPrefixTestnet: 0x7AD6,
+	addressPrefix: 0x1ACB87, // "fire" address prefix (1753191 in decimal)
+	integratedAddressPrefix: 0x1ACB88,
+	subAddressPrefix: 0x1ACB89,
+	addressPrefixTestnet: 0x1ACB87,
+	integratedAddressPrefixTestnet: 0x1ACB88,
+	subAddressPrefixTestnet: 0x1ACB89,
 	
-	coinFee: new JSBigInt('1000'),
-	feePerKB: new JSBigInt('1000'), //for testnet its not used, as fee is dynamic.
-	dustThreshold: new JSBigInt('10'),//used for choosing outputs/change - we decompose all the way down if the receiver wants now regardless of threshold
-	defaultMixin: 5, // default value mixin
+	coinFee: new JSBigInt('80000'), // 0.008 XFG minimum fee
+	feePerKB: new JSBigInt('80000'), // 0.008 XFG per KB
+	dustThreshold: new JSBigInt('20000'), // 0.002 XFG dust threshold
+	defaultMixin: 2, // minimum mixin for Fuego
 
 	idleTimeout: 30,
 	idleWarningDuration: 20,
 	syncBlockCount: 1000,
 
-	coinSymbol: 'CCX',
-	openAliasPrefix: "ccx",
-	coinName: 'Conceal',
-	coinUriPrefix: 'conceal:',
+	coinSymbol: 'XFG',
+	openAliasPrefix: "xfg",
+	coinName: 'Fuego',
+	coinUriPrefix: 'fuego:',
 	
-	avgBlockTime: 120,
+	avgBlockTime: 480, // 8 minutes
 	maxBlockNumber: 500000000,    
 };
 let randInt = Math.floor(Math.random() * Math.floor(config.nodeList.length));

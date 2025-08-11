@@ -1,7 +1,7 @@
 {
   "website": {
-    "title": "Conceal Web Wallet",
-    "description": "Conceal Network Wallet - Serverless and fully handled in your browser for optimal security"
+      "title": "Fuego Web Wallet",
+  "description": "Fuego Network Wallet - Serverless and fully handled in your browser for optimal security"
   },
   "messages": {
     "menu": {
@@ -64,8 +64,8 @@
       "github": "GitHub"
     },
     "homepage": {
-      "mainTitle": "Welcome to Conceal Wallet",
-      "tagLine": "The simplest way to use Conceal – anywhere and any time",
+          "mainTitle": "Welcome to Fuego Wallet",
+    "tagLine": "The simplest way to use Fuego – anywhere and any time",
       "actions": {
         "loadWallet": "Load my wallet",
         "importWallet": "Import a wallet",
@@ -109,7 +109,7 @@
         "emptyWallet": "You currently have no funds in this wallet.",
         "waitSync": "Please wait until the wallet is updated",
         "beReallyPatient": "The initial setup can take some time...",
-        "getCoinAddress": "Receive CCX"
+        "getCoinAddress": "Receive XFG"
       },
       "txDetails": {
         "title": "Transaction details",
@@ -146,7 +146,7 @@
       },
       "finalizationStep": {
         "title": "That was simple. Your account is ready!",
-        "subtitle": "Be ready to use Conceal like you never have",
+        "subtitle": "Be ready to use Fuego like you never have",
         "passwordSelectionBlock": {
           "label": "Protect your wallet"
         },
@@ -169,8 +169,8 @@
         }
       },
       "disclaimerBlock": {
-        "title": "Risk of Using ConcealWallet",
-        "content": "ConcealWallet is a web-based interface. It helps you use Conceal without running a full Conceal node. <br/>We recommend you treat Conceal Web Wallet like you will treat your actual wallet."
+            "title": "Risk of Using FuegoWallet",
+    "content": "FuegoWallet is a web-based interface. It helps you use Fuego without running a full Fuego node. <br/>We recommend you treat Fuego Web Wallet like you will treat your actual wallet."
       }
     },
     "donatePage": {
@@ -181,8 +181,8 @@
         "content": "If you want to help to pay for the servers, to support new features development, and like this app, please consider a donation: <br/><br/>"
       },
       "devFundBlock": {
-        "title": "Conceal Dev fund",
-        "content": "To help Conceal, you can donate at these addresses"
+            "title": "Fuego Dev fund",
+    "content": "To help Fuego, you can donate at these addresses"
       }
     },
     "supportPage": {
@@ -191,7 +191,7 @@
       "getInTouchBlock": {
         "title": "Let's Get In Touch!",
         "content": "If you have any problems with your wallet, contact us!",
-        "discord": "Conceal Discord Channel"
+        "discord": "Fuego Discord Channel"
       }
     },
     "forgotPasswordPage": {
@@ -203,7 +203,7 @@
     },
     "networkPage": {
       "title": "Network stats",
-      "subtitle": "Insights on the Conceal network",
+      "subtitle": "Insights on the Fuego network",
       "statsBlock": {
         "connectNode": "Connected to node",
         "hashrate": "Network hashrate",
@@ -214,7 +214,7 @@
       }
     },
     "sendPage": {
-      "title": "Send CCX",
+      "title": "Send XFG",
       "sendBlock": {
         "address": {
           "label": "Destination address",
@@ -249,7 +249,7 @@
       },
       "thankYouDonationModal": {
         "title": "Thank you for your donation!",
-        "content": "Your help is appreciated. This donation will help make Conceal better",
+        "content": "Your help is appreciated. This donation will help make Fuego better",
         "confirmText": "OK"
       },
       "transferSentModal": {
@@ -286,7 +286,7 @@
       }
     },
     "receivePage": {
-      "title": "Receive CCX",
+      "title": "Receive XFG",
       "receiveBlock": {
         "address": {
           "title": "Your address to receive funds:",
@@ -314,7 +314,7 @@
     },
     "miningPage": {
       "title": "Mine directly in your browser",
-      "subtitle": "Support the network by mining and be rewarded with CCX",
+      "subtitle": "Support the network by mining and be rewarded with XFG",
       "parameterBlock": {
         "title": "Parameters",
         "labelDestinationAddress": "Wallet to mine",
@@ -328,7 +328,7 @@
         "hashrate": "Hashrate",
         "maxHashrate": "Max Hashrate",
         "dedicatedHardware": "With dedicating mining software and hardware, you could earn more and help decentralize the network.",
-        "miningHandledBy": "This mining is handled by the mining pool Conceal.Network"
+        "miningHandledBy": "This mining is handled by the mining pool Fuego.Network"
       }
     },
     "settingsPage": {

@@ -327,7 +327,7 @@
         "hashrate": "Hashrate",
         "maxHashrate": "Max Hashrate",
         "dedicatedHardware": "Mit spezieller Software könnetest du zwei- bis dreimal höhere Hashraten erreichen.<br/>Spezielle Software würde auch mithilfe einer Grafikkarte minen(wenn du einge Gaming GPU hast).",
-        "miningHandledBy": "Minen erfolgt über den Mining Pool Conceal.Network"
+        "miningHandledBy": "Minen erfolgt über den Mining Pool Fuego.Network"
       }
     },
     "settingsPage": {
